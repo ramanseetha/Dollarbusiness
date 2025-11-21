@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // --- Email Setup ---
     $to = "sriethiraj@getnos.io";
-    $subject = "Schedule Your Personalized Demo Today";
+    $subject = "Dollar Business - Enquiry Form";
 
     date_default_timezone_set("Asia/Kolkata");
     $submittedAt = date("d-m-Y H:i A");
