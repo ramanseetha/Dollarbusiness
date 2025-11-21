@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Kanit-bold';
+    src: url('../src/assets/fonts/Kanit-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Kanit-light';
+    src: url('../src/assets/fonts/Kanit-Light.ttf') format('truetype');
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Kanit-bold'!important;
+}
+p, a, li,.hey,.point{
+    font-family: 'Kanit-light' !important;
+}
+
+
+/* Hide the video player when popup/modal is active */
+body.modal-open wistia-player,
+body.popup-active wistia-player {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity 0.3s ease-in-out;
+}
