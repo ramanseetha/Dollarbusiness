@@ -54,16 +54,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if (mail($to, $subject, $message, $headers)) {
 
         // Redirect to thank you page
-        header("Location: thank-you.html");
+        header("Location: https://in.thedollarbusiness.com/book-a-demo/R2V0Tm9z");
         exit();
 
-    } else {
-        echo "<script>alert('Error sending email. Please try again later.'); window.location.href='index.html';</script>";
-        exit();
-    }
+    } 
     
-} else {
-    header("Location: index.html");
-    exit();
-}
+} 
 ?>
